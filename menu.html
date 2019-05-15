@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Transformations</title>  
+    <style>
+         
+        *{
+            font-family: segoe ui;
+        }
+
+        .var-vector {
+            width: 250px;
+            height: fit-content;
+            /* border: 1px solid gray; */
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform-origin:0 50%;
+        }
+
+        /* MAIN SPHERE */
+        .main-sphere {
+            width: 165px;
+            height: 165px;
+            background: rgba(233, 233, 233, 0.794);
+            color: dimgray;     
+            border: 8px solid rgba(110, 114, 128, 0.842);
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%); 
+        }
+
+        /* FIRST HALO */
+        .first-halo {
+            height: 425px;
+            width: 400px;
+            border-radius: 50%; 
+            border-color: rgba(151, 151, 151, 0.507); 
+            border-style: solid;
+            background-color: rgba(241, 241, 241, 0.76);
+            border-width: 0px 2px 5px 2px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+            z-index: -20;
+        }
+
+        /* SECOND HALO */
+        .second-halo{
+            height: 250px;
+            width: 250px;
+            border-radius: 50%; 
+            border-color: rgb(97, 97, 97); 
+            background-color: rgba(255, 255, 255, 0.678);
+            border-style: solid;
+            border-width: 0px 1px 2px 1px ;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% , -50%);
+            z-index: -20;
+        }
+
+        .var-sphere {
+            width: 100px;
+            height: 100px;
+            background-color: rgba(250, 250, 250, 0.705);
+            border: 5px solid rgb(127, 138, 146);
+            float: right;
+            border-radius: 50%;
+            transition: all 0.5s ease;
+            overflow: hidden;  
+        }
+
+        .var-sphere:hover {
+            background-color: rgba(194, 216, 255, 0.856);   
+        }
+ 
+        .var-1 { 
+            transform:rotate(-40deg);
+        }
+        .var-2 { 
+            transform:rotate(12deg);
+        }
+        .var-3 { 
+            transform:rotate(61deg);
+        }
+        .var-4 { 
+            transform:rotate(117deg);
+        }
+        .var-5 { 
+            transform:rotate(170deg);
+        }
+        .var-6 { 
+            transform:rotate(220deg);
+        }
+
+        .main-content {
+            width: inherit;
+            height: inherit;
+            text-align: center;   
+            color: dimgray; 
+            padding-top: 40px;
+            padding-top: 32px;
+             font-size: 18px; 
+             font-weight:500;
+        }
+
+        /* MAIN CONTENT */
+        .content {       
+            width: 100px;
+            min-height: 200px; 
+            transform: translate(0, -102%);
+            transition: .5s ease;
+            opacity: 1;
+        }
+
+        .content:hover { 
+            opacity: 0;
+            transform: translate(0, -52%);
+        }
+
+        /* ACTIVATION TRIGGER */
+        .content-space { 
+            width: 100px;
+            height: 100px;
+        }
+ 
+        /* CONTENT ITSELF */
+        .content-fill { 
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.863); 
+            color: rgb(47, 47, 47);
+            text-align: center;
+        }
+
+        .content-fill>p {
+            padding-top: 30px;
+            font-size: 16px;
+        }
+
+        .content-img {
+            width: inherit;
+            height: inherit;    
+        }
+
+        .content-1 { transform:rotate(40deg); }    
+        .content-1:hover { transform: rotate(40deg) scale(1.2); }
+
+        .content-2 { transform:rotate(-12deg); }        
+        .content-2:hover { transform: rotate(-12deg) scale(1.2); }
+
+        .content-3 { transform:rotate(-61deg); }
+        .content-3:hover { transform: rotate(-61deg) scale(1.2); }
+        
+        .content-4 { transform:rotate(-117deg); }        
+        .content-4:hover { transform: rotate(-117deg) scale(1.2); }
+
+        .content-5 { transform:rotate(-170deg); }
+        .content-5:hover { transform: rotate(-170deg) scale(1.2); }
+        
+        .content-6 { transform:rotate(-220deg); }
+        .content-6:hover { transform: rotate(-220deg) scale(1.2); }
+ 
+    </style>
+</head>
+<body> 
+    <div class="second-halo"></div>
+    <div class="first-halo"></div>  
+
+    <div class="main-sphere">
+        <div class="main-content">Музеи университета им. Франциска Скорины</div>
+    </div>
+
+    <div class="var-vector var-1">
+        <div class="var-sphere content-1">
+            <img class="content-img" src="https://www.w3schools.com/w3css/img_lights.jpg">
+            <div class=" content"> 
+                <div class="content-space"></div>
+                <div class="content-fill"><p>Шестой музей</p></div>
+            </div>
+        </div> 
+    </div>
+
+    <div class="var-vector var-2">
+        <div class="var-sphere content-2">
+            <img class="content-img" src="https://www.w3schools.com/w3css/img_lights.jpg">
+            <div class="content">  
+                <div class="content-space"></div>
+                <div class="content-fill"><p>Пятый музей</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="var-vector var-3">
+        <div class="var-sphere content-3">
+            <img class="content-img" src="https://www.w3schools.com/w3css/img_lights.jpg">
+            <div class="content">  
+                <div class="content-space"></div>
+                <div class="content-fill"><p>Четвёртый музей</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="var-vector var-4">
+        <div class="var-sphere content-4">
+            <img class="content-img" src="https://www.w3schools.com/w3css/img_lights.jpg">
+            <div class=" content"> 
+                <div class="content-space"></div>
+                <div class="content-fill"><p>Третий музей</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="var-vector var-5">
+        <div class="var-sphere content-5">
+            <img class="content-img" src="https://www.w3schools.com/w3css/img_lights.jpg">
+            <div class=" content">
+                <div class="content-space"></div>
+                <div class="content-fill"><p>Второй Музей</p></div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="var-vector var-6">
+        <div class="var-sphere content-6">
+            <img class="content-img" src="https://www.w3schools.com/w3css/img_lights.jpg">
+            <div class=" content"> 
+                <div class="content-space"></div>
+                <div class="content-fill"><p>Первый музей</p></div>
+            </div>
+        </div>
+    </div>
+ 
+
+</body>
+</html>

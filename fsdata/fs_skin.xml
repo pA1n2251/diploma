@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.17">
+
+    
+  <!-- Spot Style - Default Point Spot Style 1 -->
+  <style name="IconDefaultPointSpotStyle1"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint0.png"
+         visible="false"
+
+
+         onhover="onhoverIconDefaultPointSpotStyle1"
+         onout="onoutIconDefaultPointSpotStyle1"
+         />
+  <action name="onhoverIconDefaultPointSpotStyle1">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle1">
+    hideTooltip();
+
+
+
+  </action>
+
+  
+  <!-- Spot Style - Default Polygon Spot Style 1 -->
+  <style name="PolygonDefaultPolygonSpotStyle1"
+           visible="false"
+           borderwidth="0"
+           borderwidthhover="4"
+           bordercolor="0xffffff" borderalpha="1"
+           fillcolor="0xffffff"   fillalpha="0.4"
+           bordercolorhover="0xffffff" borderalphahover="1"
+           fillcolorhover="0xffffff"   fillalphahover="0.4"
+           capture="false"
+           onhover="onhoverPolygonDefaultPolygonSpotStyle1"
+           onout="onoutPolygonDefaultPolygonSpotStyle1"
+           alturl="%FIRSTXML%/spots/default_spot_user_defaultpolygon0.png"
+           altscale="1.0"
+           frame="0"
+           lastframe="19"
+           frameheight="64"
+           framewidth="64"
+           altonloaded="setdefaultanimatedspotframe();startspotanimation(0.1);"
+           />
+  <action name="onhoverPolygonDefaultPolygonSpotStyle1">
+    showTooltip(hotspot);
+  </action>
+  <action name="onoverPolygonDefaultPolygonSpotStyle1">pauseautorotation();
+  </action>
+  <action name="onoutPolygonDefaultPolygonSpotStyle1">
+    hideTooltip();resumeautorotation();
+  </action>
+
+    
+  <!-- Spot Style - 1 -->
+  <style name="Icon1"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint00.png"
+         visible="false"
+
+
+         onhover="onhoverIcon1"
+         onout="onoutIcon1"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon1">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon1">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 2 -->
+  <style name="Icon2"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint01.png"
+         visible="false"
+
+
+         onhover="onhoverIcon2"
+         onout="onoutIcon2"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon2">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon2">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 3 -->
+  <style name="Icon3"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint02.png"
+         visible="false"
+
+
+         onhover="onhoverIcon3"
+         onout="onoutIcon3"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon3">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon3">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 4 -->
+  <style name="Icon4"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint03.png"
+         visible="false"
+
+
+         onhover="onhoverIcon4"
+         onout="onoutIcon4"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon4">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon4">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 5 -->
+  <style name="Icon5"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint04.png"
+         visible="false"
+
+
+         onhover="onhoverIcon5"
+         onout="onoutIcon5"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon5">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon5">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 6 -->
+  <style name="Icon6"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint05.png"
+         visible="false"
+
+
+         onhover="onhoverIcon6"
+         onout="onoutIcon6"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon6">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon6">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 7 -->
+  <style name="Icon7"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint06.png"
+         visible="false"
+
+
+         onhover="onhoverIcon7"
+         onout="onoutIcon7"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon7">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon7">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 8 -->
+  <style name="Icon8"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint07.png"
+         visible="false"
+
+
+         onhover="onhoverIcon8"
+         onout="onoutIcon8"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon8">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon8">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 9 -->
+  <style name="Icon9"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint08.png"
+         visible="false"
+
+
+         onhover="onhoverIcon9"
+         onout="onoutIcon9"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon9">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon9">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 10 -->
+  <style name="Icon10"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint09.png"
+         visible="false"
+
+
+         onhover="onhoverIcon10"
+         onout="onoutIcon10"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon10">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon10">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 11 -->
+  <style name="Icon11"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint010.png"
+         visible="false"
+
+
+         onhover="onhoverIcon11"
+         onout="onoutIcon11"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon11">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon11">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 12 -->
+  <style name="Icon12"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint011.png"
+         visible="false"
+
+
+         onhover="onhoverIcon12"
+         onout="onoutIcon12"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon12">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon12">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - 13 -->
+  <style name="Icon13"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_defaultpoint012.png"
+         visible="false"
+
+
+         onhover="onhoverIcon13"
+         onout="onoutIcon13"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon13">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon13">
+    hideTooltip();
+
+
+
+  </action>
+
+  <!-- ******************* -->
+  <!-- Classic Control Bar -->
+  <!-- ******************* -->
+
+  <krpano theme2barbuilt="false" theme2backgroundwidthwhenclosed="0" theme2backgroundwidthwhenopened="0" theme2IsOpened="false" />
+  <events name="theme2events" onxmlcomplete="theme2buildMenuBar();" keep="true"/>
+  <action name="theme2buildMenuBar">
+    ifnot (theme2barbuilt, theme2buildMenu(); set(theme2barbuilt, true););
+  </action>
+
+  <action name="theme2buildMenu">
+    
+    set(theme2button_pos, 20);
+
+    set(layer[theme2btn_hidecontrols].x, get(theme2button_pos));
+    set(layer[theme2btn_showcontrols].x, get(theme2button_pos));
+    inc(theme2button_pos, 36);
+    add(theme2backgroundwidthwhenclosed, get(theme2button_pos), 20);
+
+
+
+    if (device.desktop,
+      set(layer[theme2btn_display_help].x, get(theme2button_pos));
+      set(layer[theme2btn_close_help  ].x, get(theme2button_pos));
+      inc(theme2button_pos, 36);
+    );
+
+    if (device.fullscreensupport,
+      set(layer[theme2btn_openfs ].x, get(theme2button_pos));
+      set(layer[theme2btn_closefs].x, get(theme2button_pos));
+      inc(theme2button_pos, 36);
+    );
+
+
+
+    set(layer[theme2btn_autorotate_on ].x, get(theme2button_pos));
+    set(layer[theme2btn_autorotate_off].x, get(theme2button_pos));
+    inc(theme2button_pos, 36);
+
+
+
+    if (device.desktop,
+      set(layer[theme2btn_ctrlmode_drag_to].x, get(theme2button_pos));
+      set(layer[theme2btn_ctrlmode_move_to].x, get(theme2button_pos));
+      inc(theme2button_pos, 36);
+    );
+
+
+
+    if (device.desktop,
+        set(layer[theme2btn_right].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+        set(layer[theme2btn_left].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+    );
+    if (device.desktop,
+        set(layer[theme2btn_down].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+        set(layer[theme2btn_up].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+    );
+    if (device.desktop,
+        set(layer[theme2btn_out].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+        set(layer[theme2btn_in].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+    );
+    if (scene.count GT 1,
+        set(layer[theme2btn_next_pano].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+        set(layer[theme2btn_prev_pano].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+      );
+
+    inc(theme2button_pos, 20);
+
+    set(theme2backgroundwidthwhenopened, get(theme2button_pos));
+    
+    
+    add(theme2VerifyVisibility, 20, 20);
+    if(theme2backgroundwidthwhenopened == 20,
+      set(theme2backgroundwidthwhenopened, 0);
+    );
+
+	
+	
+  </action>
+
+	<events name="theme2StartTourEvents" onTourStart="theme2CallOnStartTour();" keep="true" />
+
+	<action name="theme2CallOnStartTour">
+		
+		set(layer[theme2menu_controlbar_bg_img].width, get(theme2button_pos));
+		set(layer[theme2menu_controlbar_bg].width, get(theme2button_pos));
+		theme2showMenuControls();
+	</action>
+
+  <style name="theme2_btn_style"
+         keep="true"
+         alpha="0.8"
+         edge="right" align="right"
+         width="36" height="36"
+         zorder="2"
+         onover="theme2ctrlbaronoveraction();"
+         onout="theme2ctrlbaronoutaction();"
+	onhover="showTooltip(bottom, theme2menuTooltipStyle, bottom);"
+         />
+  <action name="theme2ctrlbaronoveraction">
+    tween(alpha,1,0.1,easeoutquad);
+    tween(y,-2,0.1,easeoutquad);
+  </action>  
+  <action name="theme2ctrlbaronoutaction">
+    tween(alpha,0.8);
+    tween(y,0,0.1,easeoutquad);
+    hideTooltip();
+  </action>
+
+  <layer name="theme2menu_controlbar_bg_img"
+         keep="true"
+         align="bottom"
+         x="0" y="10"
+         url="%FIRSTXML%/graphics/classiccontrolbar/footer.png"
+         zorder="0"
+         width="40"
+         height="40"
+         scale9grid="10|10|80|80"
+         visible="false"
+         />
+  <layer name="theme2menu_controlbar_bg"
+         keep="true"
+         align="bottom"
+         x="0" y="10"
+         type="container"
+         zorder="1"
+         width="40"
+         height="40"
+         visible="false"
+         alpha="1.0"
+         >
+
+
+
+    <layer name="theme2btn_ctrlmode_move_to"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_move_to.png"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicctrlmodeMoveTip"
+            onclick="setControlModeMoveTo();"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="theme2btn_ctrlmode_drag_to"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_drag_to.png"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicctrlmodeDragTip"
+            onclick="setControlModeDragTo();"
+            visible="false"
+            devices="desktop"
+            />
+
+    <layer name="theme2btn_in"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_zoom_in.png"
+            ondown="set(fov_moveforce, -1);"
+            onup="set(fov_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classiczoomInTip"
+            devices="desktop"
+            visible="false"
+            />
+    <layer name="theme2btn_out"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_zoom_out.png"
+            ondown="set(fov_moveforce, +1);"
+            onup="set(fov_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classiczoomOutTip"
+            devices="desktop"
+            visible="false"
+            />
+
+    <layer name="theme2btn_left"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_move_left.png"
+            ondown="set(hlookat_moveforce, -1);"
+            onup="set(hlookat_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicmoveLeftTip"
+            devices="desktop"
+            visible="false"
+            />
+    <layer name="theme2btn_right"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_move_right.png"
+            ondown="set(hlookat_moveforce, +1);"
+            onup="set(hlookat_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicmoveRightTip"
+            devices="desktop"
+            visible="false"
+            />
+
+    <layer name="theme2btn_up"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_move_up.png"
+            ondown="set(vlookat_moveforce, -1);"
+            onup="set(vlookat_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicmoveUpTip"
+            devices="desktop"
+            visible="false"
+            />
+    <layer name="theme2btn_down"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_move_down.png"
+            ondown="set(vlookat_moveforce, +1);"
+            onup="set(vlookat_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicmoveDownTip"
+            devices="desktop"
+            visible="false"
+            />
+
+
+
+    <layer name="theme2btn_prev_pano"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_previous_scene.png"
+            onclick="loadPreviousScene();"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicprevSceneTip"
+            visible="false"
+            />
+    <layer name="theme2btn_next_pano"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_next_scene.png"
+            onclick="loadNextScene();"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicnextSceneTip"
+            visible="false"
+            />
+
+
+
+    <layer name="theme2btn_openfs"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_enter_fs.png"
+            onclick="enterFullscreen();"
+            style="theme2_btn_style"
+            devices="fullscreensupport"
+            visible="false"
+            tooltip="controlBar_classicopenFsTip"
+            />
+    <layer name="theme2btn_closefs"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_close_fs.png"
+            onclick="exitFullscreen();"
+            style="theme2_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            tooltip="controlBar_classiccloseFsTip"
+            />
+
+    <layer name="theme2btn_autorotate_on"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_start_autorotation.png"
+            onclick="startautorotation();"
+            style="theme2_btn_style"
+            visible="false"
+            tooltip="controlBar_classicautorotateOnTip"
+            />
+    <layer name="theme2btn_autorotate_off"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_stop_autorotation.png"
+            onclick="stopautorotation();"
+            style="theme2_btn_style"
+            visible="false"
+            tooltip="controlBar_classicautorotateOffTip"
+            />
+
+
+
+    <layer name="theme2btn_display_help"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_help.png"
+            onclick="theme2displayHelp();"
+            style="theme2_btn_style"
+            devices="desktop"
+            visible="false"
+            tooltip="controlBar_classicdisplayHelpTip"
+            />
+    <layer name="theme2btn_close_help"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_help.png"
+            onclick="theme2closeHelp();"
+            style="theme2_btn_style"
+            visible="false"
+            devices="desktop"
+            tooltip="controlBar_classichideHelpTip"
+            />
+
+
+
+    <layer name="theme2btn_hidecontrols"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_hide_controls.png"
+            style="theme2_btn_style"
+            onclick="theme2hideMenuControls();hideTourControls();"
+            visible="false"
+            tooltip="controlBar_classichideControlsTip"
+            />
+    <layer name="theme2btn_showcontrols"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_show_controls.png"
+            style="theme2_btn_style"
+            onclick="theme2showMenuControls();showTourControls();"
+            tooltip="controlBar_classicdisplayControlsTip"
+            visible="false"
+            />
+  </layer>
+
+
+
+	<events name="theme2controlmodechangedevent" 
+		oncontrolmodechanged="theme2updateControlModeButtons();" 
+		keep="true" />
+	<action name="theme2HideControlModeButtons">
+		set(layer[theme2btn_ctrlmode_move_to].visible, false);
+		set(layer[theme2btn_ctrlmode_drag_to].visible, false);
+	</action>
+	<action name="theme2ShowControlModeButtons">
+		if (tour_controlmodemousetype == "moveto",
+			set(layer[theme2btn_ctrlmode_drag_to].visible, true);
+			set(layer[theme2btn_ctrlmode_move_to].visible, false);
+		,
+			set(layer[theme2btn_ctrlmode_move_to].visible, true);
+			set(layer[theme2btn_ctrlmode_drag_to].visible, false);
+		);
+	</action>
+	<action name="theme2updateControlModeButtons">
+	if (device.desktop,
+		set(theme2DisplayControlModeButtons, false);
+		if (theme2IsOpened, set(theme2DisplayControlModeButtons, true););
+		if (theme2DisplayControlModeButtons,
+			theme2ShowControlModeButtons();
+		,
+			theme2HideControlModeButtons();
+		);
+	,
+		theme2HideControlModeButtons();
+	);
+	</action>
+
+
+  <action name="theme2hideMenuControls">
+    set(theme2IsOpened, false);
+    set(layer[theme2btn_hidecontrols].visible, false);
+    set(layer[theme2btn_showcontrols].visible, true);
+    theme2updateFullscreenButtons();
+
+
+    if (scene.count GT 1,
+    set(layer[theme2btn_prev_pano].visible, false);
+    set(layer[theme2btn_next_pano].visible, false);
+    );
+    theme2updateAutorotationButtons();
+
+
+    set(layer[theme2btn_up].visible  , false);
+    set(layer[theme2btn_down].visible, false);
+    set(layer[theme2btn_right].visible, false);
+    set(layer[theme2btn_left].visible , false);
+    set(layer[theme2btn_in].visible , false);
+    set(layer[theme2btn_out].visible, false);
+
+
+    theme2updateControlModeButtons();
+
+
+    theme2updateHelpButtons();
+
+
+    set(layer[theme2menu_controlbar_bg_img].visible, true);
+    set(layer[theme2menu_controlbar_bg].visible, true);
+    tween(layer[theme2menu_controlbar_bg_img].width , get(theme2backgroundwidthwhenclosed));
+    tween(layer[theme2menu_controlbar_bg].width , get(theme2backgroundwidthwhenclosed));
+    tween(layer[theme2menu_controlbar_bg_img].alpha, 0.8);
+  </action>
+  <action name="theme2showMenuControls">
+    set(theme2IsOpened, true);
+    set(layer[theme2btn_hidecontrols].visible, true);
+    set(layer[theme2btn_showcontrols].visible, false);
+    if(theme2backgroundwidthwhenopened == 0,
+      set(layer[theme2menu_controlbar_bg_img].visible, false);
+      set(layer[theme2menu_controlbar_bg].visible, false);
+    ,
+      set(layer[theme2menu_controlbar_bg_img].visible, true);
+      set(layer[theme2menu_controlbar_bg].visible, true);
+    );
+    tween(layer[theme2menu_controlbar_bg_img].alpha, 0.8);
+    tween(layer[theme2menu_controlbar_bg_img].width, get(theme2backgroundwidthwhenopened), 0.5, easeOutQuad, theme2showMenuButtons(););
+    tween(layer[theme2menu_controlbar_bg].width, get(theme2backgroundwidthwhenopened), 0.5, easeOutQuad, theme2showMenuButtons(););
+  </action>
+  <action name="theme2showMenuButtons">
+    if (device.desktop,
+    set(layer[theme2btn_up].visible  , true);
+    set(layer[theme2btn_down].visible, true);
+    );
+    if (device.desktop,
+    set(layer[theme2btn_right].visible, true);
+    set(layer[theme2btn_left].visible , true);
+    );
+    if (device.desktop,
+    set(layer[theme2btn_in].visible , true);
+    set(layer[theme2btn_out].visible, true);
+    );
+
+
+    theme2updateControlModeButtons();
+
+
+    theme2updateHelpButtons();
+
+
+    theme2updateFullscreenButtons();
+
+
+    if (scene.count GT 1,
+      set(layer[theme2btn_prev_pano].visible, true);
+      set(layer[theme2btn_next_pano].visible, true);
+    );
+    theme2updateAutorotationButtons();
+
+
+  </action>
+
+  <layer name="theme2helpScreen" align="center" keep="true" onclick="theme2closeHelp();" url="%FIRSTXML%/graphics/classiccontrolbar/help_screen_bg.png" visible="false" height="10%" width="prop" displayed="false" alpha="0.8" />
+
+  <layer name="theme2helpScreenFg" align="center" keep="true" onclick="theme2closeHelp();" 
+         url="%FIRSTXML%/graphics/classiccontrolbar/help_screen_fg.png" 
+         alpha="0.8" 
+         height="50%" 
+         width="prop"
+         visible="false" />
+  <action name="theme2displayHelp">
+    set(layer[theme2helpScreen].displayed,true);
+    set(layer[theme2helpScreen].visible,true);
+    tween(layer[theme2helpScreen].height, 50%, 1, easeOutQuad,
+      set(layer[theme2helpScreenFg].visible,true);
+    );
+    theme2updateHelpButtons();
+  </action>
+  <action name="theme2closeHelp">
+    set(layer[theme2helpScreen].displayed,false);
+    set(layer[theme2helpScreenFg].visible,false);
+    tween(layer[theme2helpScreen].height, 10%, 1, easeOutQuad,
+      set(layer[theme2helpScreen].visible,false);
+    );
+    theme2updateHelpButtons();
+  </action>
+	<action name="theme2HideHelpButtons">
+		set(layer[theme2btn_display_help].visible, false);
+		set(layer[theme2btn_close_help].visible, false);
+	</action>
+	<action name="theme2ShowHelpButtons">
+		if (layer[theme2helpScreen].displayed,
+			set(layer[theme2btn_close_help].visible, true);
+			set(layer[theme2btn_display_help].visible, false);
+		,
+			set(layer[theme2btn_display_help].visible, true);
+			set(layer[theme2btn_close_help].visible, false);
+		);
+	</action>
+	<action name="theme2updateHelpButtons">
+	if (device.desktop,
+		set(theme2DisplayHelpButtons, false);
+		if (theme2IsOpened, set(theme2DisplayHelpButtons, true););
+		if (theme2DisplayHelpButtons,
+			theme2ShowHelpButtons();
+		,
+			theme2HideHelpButtons();
+		);
+	,
+		theme2HideHelpButtons();
+	);
+	</action>
+
+
+
+	<events name="theme2menufullscreenchangeevent"
+		onenterfullscreen="theme2updateFullscreenButtons();"
+		onexitfullscreen="theme2updateFullscreenButtons();"
+		keep="true"/>
+	<action name="theme2HideFullscreenButtons">
+		set(layer[theme2btn_openfs].visible , false);
+		set(layer[theme2btn_closefs].visible, false);
+	</action>
+	<action name="theme2ShowFullscreenButtons">
+		if (device.fullscreensupport,
+			if(tour_fullscreen,
+				set(layer[theme2btn_openfs].visible , false);
+				set(layer[theme2btn_closefs].visible, true);
+			,
+				set(layer[theme2btn_openfs].visible ,true);
+				set(layer[theme2btn_closefs].visible,false);
+			);
+		,
+			theme2HideFullscreenButtons();
+		);
+	</action>
+	<action name="theme2updateFullscreenButtons">
+		set(theme2DisplayFullscreenButtons, false);
+		if (theme2IsOpened, set(theme2DisplayFullscreenButtons, true););
+		if (theme2DisplayFullscreenButtons,
+			theme2ShowFullscreenButtons();
+		,
+			theme2HideFullscreenButtons();
+		);
+	</action>
+
+	<events name="theme2AutorotationEvents"
+		onstartautorotation="theme2updateAutorotationButtons();"
+		onresumeautorotation="theme2updateAutorotationButtons();"
+		onstopautorotation="theme2updateAutorotationButtons();"
+		onpauseautorotation="theme2updateAutorotationButtons();"
+		keep="true"/>
+	<action name="theme2HideAutorotationButtons">
+		set(layer[theme2btn_autorotate_off].visible, false);
+		set(layer[theme2btn_autorotate_on].visible , false);
+	</action>
+	<action name="theme2ShowAutorotationButtons">
+		if(tour_autorotateenabled==false,
+			set(layer[theme2btn_autorotate_off].visible, false);
+			set(layer[theme2btn_autorotate_on].visible , true);
+		,
+			set(layer[theme2btn_autorotate_off].visible, true);
+			set(layer[theme2btn_autorotate_on].visible , false);
+		);
+	</action>
+	<action name="theme2updateAutorotationButtons">
+		set(theme2DisplayAutorotationButtons, false);
+		if (theme2IsOpened, set(theme2DisplayAutorotationButtons, true););
+		if (theme2DisplayAutorotationButtons,
+			theme2ShowAutorotationButtons();
+		,
+			theme2HideAutorotationButtons();
+		);
+	</action>
+
+
+
+
+
+  <textstyle name="theme2menuTooltipStyle"
+             font="Helvetica"
+             fontsize="16"
+             bold="true"
+             italic="false"
+             background="false"
+             border="false"
+             alpha="0.8"
+             blendmode="layer"
+             textcolor="0xe6e6e6"
+             effect="glow(0x111111,0.8);"
+             origin="bottom"
+             yoffset="60"
+             edge="center"
+             xoffset="0"
+             textalign="center"
+             noclip="true"
+             devices="flash"
+             />
+	<layer name="theme2menuTooltipStyle"
+		keep="true"
+		enabled="false"
+		capture="false"
+		url="%FIRSTXML%/graphics/textfield.swf"
+		align="center"
+		background="true"
+		backgroundcolor="0xdedede"
+		backgroundalpha="0.8"
+		border="false"
+		bordercolor="0xffffff"
+		css="color:#e6e6e6;font-family:Helvetica;font-weight:bold;font-size:16px;text-align:center;"
+		width="200"
+		height="20"
+		autoheight="true"
+			edge="bottom"
+		textshadow="1.0"
+		selectable="false"
+		zorder="0"
+		html=""
+		visible="false"
+		devices="html5"
+		/>
+
+  <action name="displayImage">
+    if (%1 == null,
+      showlog();trace("Display Image : function called without any image. Verify its parameters in Panotour.");
+    ,
+    if (layer[displayedStandardImage],
+      if(layer[displayedStandardImage].doNotDeleteMe,
+        set(layer[displayedStandardImage].currentCall, false);
+        set(layer[displayedStandardImage].visible, true);
+        set(layer[displayedStandardImage].doNotDeleteMe, false);
+        
+        if (%1 == layer[displayedStandardImage].url,resumeautorotation();
+          removelayer(displayedStandardImage);
+        ,
+          setDisplayedImageObjectParameters(%1, %2, %3, %4, %5, %6);
+        );
+      ,
+        set(layer[displayedStandardImage].currentCall, true);
+        set(layer[displayedStandardImage].doNotDeleteMe, true);
+        events.dispatch(onremovedisplayedobject);
+        delayedcall(0.2,displayImage(%1, %2, %3, %4, %5, %6, %7););
+      );
+    ,
+      addlayer(displayedStandardImage);
+      set(layer[displayedStandardImage].keep, false);
+      set(layer[displayedStandardImage].onclick, resumeautorotation();removelayer(displayedStandardImage));
+      set(layer[displayedStandardImage].zorder , 99);
+      
+      set(layer[displayedStandardImage].currentCall, true);
+      set(layer[displayedStandardImage].doNotDeleteMe, true);
+      events.dispatch(onremovedisplayedobject);
+      delayedcall(0.2,displayImage(%1, %2, %3, %4, %5, %6, %7););
+      if (%7,pauseautorotation(););
+      set(layer[displayedStandardImage].visible, false);
+    );
+    );
+  </action>
+  <action name="setDisplayedImageObjectParameters">
+    set(layer[displayedStandardImage].url    , %1);
+    set(layer[displayedStandardImage].align  , %2);
+    set(layer[displayedStandardImage].x      , %3);
+    set(layer[displayedStandardImage].y      , %4);
+    set(layer[displayedStandardImage].width  , %5);
+    set(layer[displayedStandardImage].height , %6);
+  </action> 
+  <events name="displayedImageObjectEvents" keep="true" onremovedisplayedobject="displayedImageObjectOnRemoveDisplayedObject"/>
+  <action name="displayedImageObjectOnRemoveDisplayedObject">
+    ifnot(layer[displayedStandardImage].currentCall,if(layer[displayedStandardImage].visible,resumeautorotation();
+      removelayer(displayedStandardImage);
+    ););
+  </action>
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);set(fullscreen,false);</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);set(fullscreen,true);</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+</krpano>

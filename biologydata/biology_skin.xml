@@ -1,0 +1,1637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.17">
+
+  
+  <!-- Spot Style - Default Polygon Spot Style 1 -->
+  <style name="PolygonDefaultPolygonSpotStyle1"
+           visible="false"
+           borderwidth="0"
+           borderwidthhover="4"
+           bordercolor="0xff0000" borderalpha="0.500007629510948"
+           fillcolor="0xff0000"   fillalpha="0.100007629510948"
+           bordercolorhover="0xff0000" borderalphahover="0.500007629510948"
+           fillcolorhover="0xff0000"   fillalphahover="0.100007629510948"
+           capture="false"
+           onhover="onhoverPolygonDefaultPolygonSpotStyle1"
+           onout="onoutPolygonDefaultPolygonSpotStyle1"
+           alturl="%FIRSTXML%/spots/default_spot_user_defaultpolygon0.png"
+           altscale="1.0"
+           frame="0"
+           lastframe="19"
+           frameheight="64"
+           framewidth="64"
+           altonloaded="setdefaultanimatedspotframe();startspotanimation(0.1);"
+           />
+  <action name="onhoverPolygonDefaultPolygonSpotStyle1">
+    showTooltip(hotspot);
+  </action>
+  <action name="onoverPolygonDefaultPolygonSpotStyle1">pauseautorotation();
+  </action>
+  <action name="onoutPolygonDefaultPolygonSpotStyle1">
+    hideTooltip();resumeautorotation();
+  </action>
+
+    
+  <!-- Spot Style - бобер -->
+  <style name="Iconбобер"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_defaultpoint014800.png"
+         visible="false"
+
+
+         onhover="onhoverIconбобер"
+         onout="onoutIconбобер"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconбобер">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconбобер">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Выдра -->
+  <style name="IconВыдра"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint0148000.png"
+         visible="false"
+
+
+         onhover="onhoverIconВыдра"
+         onout="onoutIconВыдра"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconВыдра">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconВыдра">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - еж -->
+  <style name="Iconеж"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint0148001.png"
+         visible="false"
+
+
+         onhover="onhoverIconеж"
+         onout="onoutIconеж"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconеж">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconеж">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - заяц -->
+  <style name="Iconзаяц"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint0148002.png"
+         visible="false"
+
+
+         onhover="onhoverIconзаяц"
+         onout="onoutIconзаяц"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconзаяц">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconзаяц">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Зубр -->
+  <style name="IconЗубр"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint0148003.png"
+         visible="false"
+
+
+         onhover="onhoverIconЗубр"
+         onout="onoutIconЗубр"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconЗубр">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconЗубр">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - кабан -->
+  <style name="Iconкабан"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint0148004.png"
+         visible="false"
+
+
+         onhover="onhoverIconкабан"
+         onout="onoutIconкабан"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconкабан">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconкабан">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Кенгуру -->
+  <style name="IconКенгуру"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint0148005.png"
+         visible="false"
+
+
+         onhover="onhoverIconКенгуру"
+         onout="onoutIconКенгуру"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconКенгуру">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconКенгуру">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - колбы -->
+  <style name="Iconколбы"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint0148006.png"
+         visible="false"
+
+
+         onhover="onhoverIconколбы"
+         onout="onoutIconколбы"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconколбы">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconколбы">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - олень -->
+  <style name="Iconолень"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint0148007.png"
+         visible="false"
+
+
+         onhover="onhoverIconолень"
+         onout="onoutIconолень"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconолень">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconолень">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Рыбехи -->
+  <style name="IconРыбехи"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint0148008.png"
+         visible="false"
+
+
+         onhover="onhoverIconРыбехи"
+         onout="onoutIconРыбехи"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconРыбехи">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconРыбехи">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - рысь -->
+  <style name="Iconрысь"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint0148009.png"
+         visible="false"
+
+
+         onhover="onhoverIconрысь"
+         onout="onoutIconрысь"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconрысь">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconрысь">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Суслик -->
+  <style name="IconСуслик"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint01480010.png"
+         visible="false"
+
+
+         onhover="onhoverIconСуслик"
+         onout="onoutIconСуслик"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconСуслик">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconСуслик">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Угорь -->
+  <style name="IconУгорь"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint01480011.png"
+         visible="false"
+
+
+         onhover="onhoverIconУгорь"
+         onout="onoutIconУгорь"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconУгорь">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconУгорь">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Щука -->
+  <style name="IconЩука"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint01480012.png"
+         visible="false"
+
+
+         onhover="onhoverIconЩука"
+         onout="onoutIconЩука"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconЩука">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconЩука">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Гнезда 1 -->
+  <style name="IconГнезда1"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_defaultpoint01480013.png"
+         visible="false"
+
+
+         onhover="onhoverIconГнезда1"
+         onout="onoutIconГнезда1"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconГнезда1">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconГнезда1">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Гнезда 2 -->
+  <style name="IconГнезда2"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_defaultpoint014800130.png"
+         visible="false"
+
+
+         onhover="onhoverIconГнезда2"
+         onout="onoutIconГнезда2"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconГнезда2">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconГнезда2">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Колбы 1 -->
+  <style name="IconКолбы1"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_defaultpoint014800131.png"
+         visible="false"
+
+
+         onhover="onhoverIconКолбы1"
+         onout="onoutIconКолбы1"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconКолбы1">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconКолбы1">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Колбы 2 -->
+  <style name="IconКолбы2"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_defaultpoint014800132.png"
+         visible="false"
+
+
+         onhover="onhoverIconКолбы2"
+         onout="onoutIconКолбы2"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconКолбы2">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconКолбы2">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Колбы 3 -->
+  <style name="IconКолбы3"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_defaultpoint014800133.png"
+         visible="false"
+
+
+         onhover="onhoverIconКолбы3"
+         onout="onoutIconКолбы3"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconКолбы3">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconКолбы3">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Колбы 4 -->
+  <style name="IconКолбы4"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_defaultpoint014800134.png"
+         visible="false"
+
+
+         onhover="onhoverIconКолбы4"
+         onout="onoutIconКолбы4"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconКолбы4">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconКолбы4">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Улей -->
+  <style name="IconУлей"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_defaultpoint014800135.png"
+         visible="false"
+
+
+         onhover="onhoverIconУлей"
+         onout="onoutIconУлей"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconУлей">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconУлей">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - гнездо 3 -->
+  <style name="Iconгнездо3"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_defaultpoint014800136.png"
+         visible="false"
+
+
+         onhover="onhoverIconгнездо3"
+         onout="onoutIconгнездо3"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconгнездо3">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconгнездо3">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Стенд 1 -->
+  <style name="IconСтенд1"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_user_defaultpoint0148001361.png"
+         visible="false"
+
+
+         onhover="onhoverIconСтенд1"
+         onout="onoutIconСтенд1"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconСтенд1">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconСтенд1">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Стенд 2 -->
+  <style name="IconСтенд2"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_user_defaultpoint0148001362.png"
+         visible="false"
+
+
+         onhover="onhoverIconСтенд2"
+         onout="onoutIconСтенд2"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconСтенд2">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconСтенд2">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Стенд 3 -->
+  <style name="IconСтенд3"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_user_defaultpoint0148001363.png"
+         visible="false"
+
+
+         onhover="onhoverIconСтенд3"
+         onout="onoutIconСтенд3"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconСтенд3">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconСтенд3">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Стенд 4 -->
+  <style name="IconСтенд4"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_user_defaultpoint0148001364.png"
+         visible="false"
+
+
+         onhover="onhoverIconСтенд4"
+         onout="onoutIconСтенд4"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconСтенд4">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconСтенд4">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Стенд 5 -->
+  <style name="IconСтенд5"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_user_defaultpoint0148001365.png"
+         visible="false"
+
+
+         onhover="onhoverIconСтенд5"
+         onout="onoutIconСтенд5"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconСтенд5">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconСтенд5">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Стенд 6 -->
+  <style name="IconСтенд6"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_user_defaultpoint0148001366.png"
+         visible="false"
+
+
+         onhover="onhoverIconСтенд6"
+         onout="onoutIconСтенд6"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconСтенд6">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconСтенд6">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Стенд 7 -->
+  <style name="IconСтенд7"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_user_defaultpoint0148001367.png"
+         visible="false"
+
+
+         onhover="onhoverIconСтенд7"
+         onout="onoutIconСтенд7"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconСтенд7">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconСтенд7">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Стенд 8 -->
+  <style name="IconСтенд8"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_user_defaultpoint0148001368.png"
+         visible="false"
+
+
+         onhover="onhoverIconСтенд8"
+         onout="onoutIconСтенд8"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconСтенд8">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconСтенд8">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Птица -->
+  <style name="IconПтица"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_user_defaultpoint0148001369.png"
+         visible="false"
+
+
+         onhover="onhoverIconПтица"
+         onout="onoutIconПтица"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconПтица">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconПтица">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - Стенд -->
+  <style name="IconСтенд"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_user_user_user_user_user_user_user_defaultpoint01480013610.png"
+         visible="false"
+
+
+         onhover="onhoverIconСтенд"
+         onout="onoutIconСтенд"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIconСтенд">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconСтенд">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - -&gt; -->
+  <style name="Icon-&gt;"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_user_user_defaultpoint100.png"
+         visible="false"
+
+         frame="0"
+         lastframe="17"
+         framewidth="40"
+         frameheight="40"
+         stopspotsequence="false"
+         onloaded="setdefaultanimatedspotframe();startspotanimation(0.1);"
+
+         onhover="onhoverIcon-&gt;"
+         onout="onoutIcon-&gt;"
+         />
+  <action name="onhoverIcon-&gt;">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon-&gt;">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - &lt;- -->
+  <style name="Icon&lt;-"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_user_user_defaultpoint101.png"
+         visible="false"
+
+         frame="0"
+         lastframe="17"
+         framewidth="40"
+         frameheight="40"
+         stopspotsequence="false"
+         onloaded="setdefaultanimatedspotframe();startspotanimation(0.1);"
+
+         rotate="180"
+         onhover="onhoverIcon&lt;-"
+         onout="onoutIcon&lt;-"
+         />
+  <action name="onhoverIcon&lt;-">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon&lt;-">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - ^ -->
+  <style name="Icon^"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_user_user_defaultpoint102.png"
+         visible="false"
+
+         frame="0"
+         lastframe="17"
+         framewidth="40"
+         frameheight="40"
+         stopspotsequence="false"
+         onloaded="setdefaultanimatedspotframe();startspotanimation(0.1);"
+
+         rotate="270"
+         onhover="onhoverIcon^"
+         onout="onoutIcon^"
+         />
+  <action name="onhoverIcon^">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon^">
+    hideTooltip();
+
+
+
+  </action>
+
+  <!-- ******************* -->
+  <!-- Classic Control Bar -->
+  <!-- ******************* -->
+
+  <krpano theme2barbuilt="false" theme2backgroundwidthwhenclosed="0" theme2backgroundwidthwhenopened="0" theme2IsOpened="false" />
+  <events name="theme2events" onxmlcomplete="theme2buildMenuBar();" keep="true"/>
+  <action name="theme2buildMenuBar">
+    ifnot (theme2barbuilt, theme2buildMenu(); set(theme2barbuilt, true););
+  </action>
+
+  <action name="theme2buildMenu">
+    
+    set(theme2button_pos, 20);
+
+    set(layer[theme2btn_hidecontrols].x, get(theme2button_pos));
+    set(layer[theme2btn_showcontrols].x, get(theme2button_pos));
+    inc(theme2button_pos, 36);
+    add(theme2backgroundwidthwhenclosed, get(theme2button_pos), 20);
+
+
+
+    if (device.desktop,
+      set(layer[theme2btn_display_help].x, get(theme2button_pos));
+      set(layer[theme2btn_close_help  ].x, get(theme2button_pos));
+      inc(theme2button_pos, 36);
+    );
+
+    if (device.fullscreensupport,
+      set(layer[theme2btn_openfs ].x, get(theme2button_pos));
+      set(layer[theme2btn_closefs].x, get(theme2button_pos));
+      inc(theme2button_pos, 36);
+    );
+
+
+
+    set(layer[theme2btn_autorotate_on ].x, get(theme2button_pos));
+    set(layer[theme2btn_autorotate_off].x, get(theme2button_pos));
+    inc(theme2button_pos, 36);
+
+
+
+    if (device.desktop,
+      set(layer[theme2btn_ctrlmode_drag_to].x, get(theme2button_pos));
+      set(layer[theme2btn_ctrlmode_move_to].x, get(theme2button_pos));
+      inc(theme2button_pos, 36);
+    );
+
+
+
+    if (device.desktop,
+        set(layer[theme2btn_right].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+        set(layer[theme2btn_left].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+    );
+    if (device.desktop,
+        set(layer[theme2btn_down].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+        set(layer[theme2btn_up].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+    );
+    if (device.desktop,
+        set(layer[theme2btn_out].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+        set(layer[theme2btn_in].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+    );
+    if (scene.count GT 1,
+        set(layer[theme2btn_next_pano].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+        set(layer[theme2btn_prev_pano].x, get(theme2button_pos));
+        inc(theme2button_pos, 36);
+      );
+
+    inc(theme2button_pos, 20);
+
+    set(theme2backgroundwidthwhenopened, get(theme2button_pos));
+    
+    
+    add(theme2VerifyVisibility, 20, 20);
+    if(theme2backgroundwidthwhenopened == 20,
+      set(theme2backgroundwidthwhenopened, 0);
+    );
+
+	
+	
+  </action>
+
+	<events name="theme2StartTourEvents" onTourStart="theme2CallOnStartTour();" keep="true" />
+
+	<action name="theme2CallOnStartTour">
+		
+		set(layer[theme2menu_controlbar_bg_img].width, get(theme2button_pos));
+		set(layer[theme2menu_controlbar_bg].width, get(theme2button_pos));
+		theme2showMenuControls();
+	</action>
+
+  <style name="theme2_btn_style"
+         keep="true"
+         alpha="0.8"
+         edge="right" align="right"
+         width="36" height="36"
+         zorder="2"
+         onover="theme2ctrlbaronoveraction();"
+         onout="theme2ctrlbaronoutaction();"
+	onhover="showTooltip(bottom, theme2menuTooltipStyle, bottom);"
+         />
+  <action name="theme2ctrlbaronoveraction">
+    tween(alpha,1,0.1,easeoutquad);
+    tween(y,-2,0.1,easeoutquad);
+  </action>  
+  <action name="theme2ctrlbaronoutaction">
+    tween(alpha,0.8);
+    tween(y,0,0.1,easeoutquad);
+    hideTooltip();
+  </action>
+
+  <layer name="theme2menu_controlbar_bg_img"
+         keep="true"
+         align="bottom"
+         x="0" y="10"
+         url="%FIRSTXML%/graphics/classiccontrolbar/footer.png"
+         zorder="0"
+         width="40"
+         height="40"
+         scale9grid="10|10|80|80"
+         visible="false"
+         />
+  <layer name="theme2menu_controlbar_bg"
+         keep="true"
+         align="bottom"
+         x="0" y="10"
+         type="container"
+         zorder="1"
+         width="40"
+         height="40"
+         visible="false"
+         alpha="1.0"
+         >
+
+
+
+    <layer name="theme2btn_ctrlmode_move_to"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_move_to.png"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicctrlmodeMoveTip"
+            onclick="setControlModeMoveTo();"
+            visible="false"
+            devices="desktop"
+            />
+    <layer name="theme2btn_ctrlmode_drag_to"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_drag_to.png"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicctrlmodeDragTip"
+            onclick="setControlModeDragTo();"
+            visible="false"
+            devices="desktop"
+            />
+
+    <layer name="theme2btn_in"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_zoom_in.png"
+            ondown="set(fov_moveforce, -1);"
+            onup="set(fov_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classiczoomInTip"
+            devices="desktop"
+            visible="false"
+            />
+    <layer name="theme2btn_out"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_zoom_out.png"
+            ondown="set(fov_moveforce, +1);"
+            onup="set(fov_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classiczoomOutTip"
+            devices="desktop"
+            visible="false"
+            />
+
+    <layer name="theme2btn_left"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_move_left.png"
+            ondown="set(hlookat_moveforce, -1);"
+            onup="set(hlookat_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicmoveLeftTip"
+            devices="desktop"
+            visible="false"
+            />
+    <layer name="theme2btn_right"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_move_right.png"
+            ondown="set(hlookat_moveforce, +1);"
+            onup="set(hlookat_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicmoveRightTip"
+            devices="desktop"
+            visible="false"
+            />
+
+    <layer name="theme2btn_up"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_move_up.png"
+            ondown="set(vlookat_moveforce, -1);"
+            onup="set(vlookat_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicmoveUpTip"
+            devices="desktop"
+            visible="false"
+            />
+    <layer name="theme2btn_down"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_move_down.png"
+            ondown="set(vlookat_moveforce, +1);"
+            onup="set(vlookat_moveforce, 0);"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicmoveDownTip"
+            devices="desktop"
+            visible="false"
+            />
+
+
+
+    <layer name="theme2btn_prev_pano"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_previous_scene.png"
+            onclick="loadPreviousScene();"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicprevSceneTip"
+            visible="false"
+            />
+    <layer name="theme2btn_next_pano"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_next_scene.png"
+            onclick="loadNextScene();"
+            style="theme2_btn_style"
+            tooltip="controlBar_classicnextSceneTip"
+            visible="false"
+            />
+
+
+
+    <layer name="theme2btn_openfs"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_enter_fs.png"
+            onclick="enterFullscreen();"
+            style="theme2_btn_style"
+            devices="fullscreensupport"
+            visible="false"
+            tooltip="controlBar_classicopenFsTip"
+            />
+    <layer name="theme2btn_closefs"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_close_fs.png"
+            onclick="exitFullscreen();"
+            style="theme2_btn_style"
+            visible="false"
+            devices="fullscreensupport"
+            tooltip="controlBar_classiccloseFsTip"
+            />
+
+    <layer name="theme2btn_autorotate_on"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_start_autorotation.png"
+            onclick="startautorotation();"
+            style="theme2_btn_style"
+            visible="false"
+            tooltip="controlBar_classicautorotateOnTip"
+            />
+    <layer name="theme2btn_autorotate_off"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_stop_autorotation.png"
+            onclick="stopautorotation();"
+            style="theme2_btn_style"
+            visible="false"
+            tooltip="controlBar_classicautorotateOffTip"
+            />
+
+
+
+    <layer name="theme2btn_display_help"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_help.png"
+            onclick="theme2displayHelp();"
+            style="theme2_btn_style"
+            devices="desktop"
+            visible="false"
+            tooltip="controlBar_classicdisplayHelpTip"
+            />
+    <layer name="theme2btn_close_help"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_help.png"
+            onclick="theme2closeHelp();"
+            style="theme2_btn_style"
+            visible="false"
+            devices="desktop"
+            tooltip="controlBar_classichideHelpTip"
+            />
+
+
+
+    <layer name="theme2btn_hidecontrols"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_hide_controls.png"
+            style="theme2_btn_style"
+            onclick="theme2hideMenuControls();hideTourControls();"
+            visible="false"
+            tooltip="controlBar_classichideControlsTip"
+            />
+    <layer name="theme2btn_showcontrols"
+            url="%FIRSTXML%/graphics/classiccontrolbar/btn_show_controls.png"
+            style="theme2_btn_style"
+            onclick="theme2showMenuControls();showTourControls();"
+            tooltip="controlBar_classicdisplayControlsTip"
+            visible="false"
+            />
+  </layer>
+
+
+
+	<events name="theme2controlmodechangedevent" 
+		oncontrolmodechanged="theme2updateControlModeButtons();" 
+		keep="true" />
+	<action name="theme2HideControlModeButtons">
+		set(layer[theme2btn_ctrlmode_move_to].visible, false);
+		set(layer[theme2btn_ctrlmode_drag_to].visible, false);
+	</action>
+	<action name="theme2ShowControlModeButtons">
+		if (tour_controlmodemousetype == "moveto",
+			set(layer[theme2btn_ctrlmode_drag_to].visible, true);
+			set(layer[theme2btn_ctrlmode_move_to].visible, false);
+		,
+			set(layer[theme2btn_ctrlmode_move_to].visible, true);
+			set(layer[theme2btn_ctrlmode_drag_to].visible, false);
+		);
+	</action>
+	<action name="theme2updateControlModeButtons">
+	if (device.desktop,
+		set(theme2DisplayControlModeButtons, false);
+		if (theme2IsOpened, set(theme2DisplayControlModeButtons, true););
+		if (theme2DisplayControlModeButtons,
+			theme2ShowControlModeButtons();
+		,
+			theme2HideControlModeButtons();
+		);
+	,
+		theme2HideControlModeButtons();
+	);
+	</action>
+
+
+  <action name="theme2hideMenuControls">
+    set(theme2IsOpened, false);
+    set(layer[theme2btn_hidecontrols].visible, false);
+    set(layer[theme2btn_showcontrols].visible, true);
+    theme2updateFullscreenButtons();
+
+
+    if (scene.count GT 1,
+    set(layer[theme2btn_prev_pano].visible, false);
+    set(layer[theme2btn_next_pano].visible, false);
+    );
+    theme2updateAutorotationButtons();
+
+
+    set(layer[theme2btn_up].visible  , false);
+    set(layer[theme2btn_down].visible, false);
+    set(layer[theme2btn_right].visible, false);
+    set(layer[theme2btn_left].visible , false);
+    set(layer[theme2btn_in].visible , false);
+    set(layer[theme2btn_out].visible, false);
+
+
+    theme2updateControlModeButtons();
+
+
+    theme2updateHelpButtons();
+
+
+    set(layer[theme2menu_controlbar_bg_img].visible, true);
+    set(layer[theme2menu_controlbar_bg].visible, true);
+    tween(layer[theme2menu_controlbar_bg_img].width , get(theme2backgroundwidthwhenclosed));
+    tween(layer[theme2menu_controlbar_bg].width , get(theme2backgroundwidthwhenclosed));
+    tween(layer[theme2menu_controlbar_bg_img].alpha, 0.768627450980392);
+  </action>
+  <action name="theme2showMenuControls">
+    set(theme2IsOpened, true);
+    set(layer[theme2btn_hidecontrols].visible, true);
+    set(layer[theme2btn_showcontrols].visible, false);
+    if(theme2backgroundwidthwhenopened == 0,
+      set(layer[theme2menu_controlbar_bg_img].visible, false);
+      set(layer[theme2menu_controlbar_bg].visible, false);
+    ,
+      set(layer[theme2menu_controlbar_bg_img].visible, true);
+      set(layer[theme2menu_controlbar_bg].visible, true);
+    );
+    tween(layer[theme2menu_controlbar_bg_img].alpha, 0.768627450980392);
+    tween(layer[theme2menu_controlbar_bg_img].width, get(theme2backgroundwidthwhenopened), 0.5, easeOutQuad, theme2showMenuButtons(););
+    tween(layer[theme2menu_controlbar_bg].width, get(theme2backgroundwidthwhenopened), 0.5, easeOutQuad, theme2showMenuButtons(););
+  </action>
+  <action name="theme2showMenuButtons">
+    if (device.desktop,
+    set(layer[theme2btn_up].visible  , true);
+    set(layer[theme2btn_down].visible, true);
+    );
+    if (device.desktop,
+    set(layer[theme2btn_right].visible, true);
+    set(layer[theme2btn_left].visible , true);
+    );
+    if (device.desktop,
+    set(layer[theme2btn_in].visible , true);
+    set(layer[theme2btn_out].visible, true);
+    );
+
+
+    theme2updateControlModeButtons();
+
+
+    theme2updateHelpButtons();
+
+
+    theme2updateFullscreenButtons();
+
+
+    if (scene.count GT 1,
+      set(layer[theme2btn_prev_pano].visible, true);
+      set(layer[theme2btn_next_pano].visible, true);
+    );
+    theme2updateAutorotationButtons();
+
+
+  </action>
+
+  <layer name="theme2helpScreen" align="center" keep="true" onclick="theme2closeHelp();" url="%FIRSTXML%/graphics/classiccontrolbar/help_screen_bg.png" visible="false" height="10%" width="prop" displayed="false" alpha="0.768627450980392" />
+
+  <layer name="theme2helpScreenFg" align="center" keep="true" onclick="theme2closeHelp();" 
+         url="%FIRSTXML%/graphics/classiccontrolbar/help_screen_fg.png" 
+         alpha="0.8" 
+         height="50%" 
+         width="prop"
+         visible="false" />
+  <action name="theme2displayHelp">
+    set(layer[theme2helpScreen].displayed,true);
+    set(layer[theme2helpScreen].visible,true);
+    tween(layer[theme2helpScreen].height, 50%, 1, easeOutQuad,
+      set(layer[theme2helpScreenFg].visible,true);
+    );
+    theme2updateHelpButtons();
+  </action>
+  <action name="theme2closeHelp">
+    set(layer[theme2helpScreen].displayed,false);
+    set(layer[theme2helpScreenFg].visible,false);
+    tween(layer[theme2helpScreen].height, 10%, 1, easeOutQuad,
+      set(layer[theme2helpScreen].visible,false);
+    );
+    theme2updateHelpButtons();
+  </action>
+	<action name="theme2HideHelpButtons">
+		set(layer[theme2btn_display_help].visible, false);
+		set(layer[theme2btn_close_help].visible, false);
+	</action>
+	<action name="theme2ShowHelpButtons">
+		if (layer[theme2helpScreen].displayed,
+			set(layer[theme2btn_close_help].visible, true);
+			set(layer[theme2btn_display_help].visible, false);
+		,
+			set(layer[theme2btn_display_help].visible, true);
+			set(layer[theme2btn_close_help].visible, false);
+		);
+	</action>
+	<action name="theme2updateHelpButtons">
+	if (device.desktop,
+		set(theme2DisplayHelpButtons, false);
+		if (theme2IsOpened, set(theme2DisplayHelpButtons, true););
+		if (theme2DisplayHelpButtons,
+			theme2ShowHelpButtons();
+		,
+			theme2HideHelpButtons();
+		);
+	,
+		theme2HideHelpButtons();
+	);
+	</action>
+
+
+
+	<events name="theme2menufullscreenchangeevent"
+		onenterfullscreen="theme2updateFullscreenButtons();"
+		onexitfullscreen="theme2updateFullscreenButtons();"
+		keep="true"/>
+	<action name="theme2HideFullscreenButtons">
+		set(layer[theme2btn_openfs].visible , false);
+		set(layer[theme2btn_closefs].visible, false);
+	</action>
+	<action name="theme2ShowFullscreenButtons">
+		if (device.fullscreensupport,
+			if(tour_fullscreen,
+				set(layer[theme2btn_openfs].visible , false);
+				set(layer[theme2btn_closefs].visible, true);
+			,
+				set(layer[theme2btn_openfs].visible ,true);
+				set(layer[theme2btn_closefs].visible,false);
+			);
+		,
+			theme2HideFullscreenButtons();
+		);
+	</action>
+	<action name="theme2updateFullscreenButtons">
+		set(theme2DisplayFullscreenButtons, false);
+		if (theme2IsOpened, set(theme2DisplayFullscreenButtons, true););
+		if (theme2DisplayFullscreenButtons,
+			theme2ShowFullscreenButtons();
+		,
+			theme2HideFullscreenButtons();
+		);
+	</action>
+
+	<events name="theme2AutorotationEvents"
+		onstartautorotation="theme2updateAutorotationButtons();"
+		onresumeautorotation="theme2updateAutorotationButtons();"
+		onstopautorotation="theme2updateAutorotationButtons();"
+		onpauseautorotation="theme2updateAutorotationButtons();"
+		keep="true"/>
+	<action name="theme2HideAutorotationButtons">
+		set(layer[theme2btn_autorotate_off].visible, false);
+		set(layer[theme2btn_autorotate_on].visible , false);
+	</action>
+	<action name="theme2ShowAutorotationButtons">
+		if(tour_autorotateenabled==false,
+			set(layer[theme2btn_autorotate_off].visible, false);
+			set(layer[theme2btn_autorotate_on].visible , true);
+		,
+			set(layer[theme2btn_autorotate_off].visible, true);
+			set(layer[theme2btn_autorotate_on].visible , false);
+		);
+	</action>
+	<action name="theme2updateAutorotationButtons">
+		set(theme2DisplayAutorotationButtons, false);
+		if (theme2IsOpened, set(theme2DisplayAutorotationButtons, true););
+		if (theme2DisplayAutorotationButtons,
+			theme2ShowAutorotationButtons();
+		,
+			theme2HideAutorotationButtons();
+		);
+	</action>
+
+
+
+
+
+  <textstyle name="theme2menuTooltipStyle"
+             font="Helvetica"
+             fontsize="16"
+             bold="true"
+             italic="false"
+             background="false"
+             border="false"
+             alpha="0.8"
+             blendmode="layer"
+             textcolor="0xe6e6e6"
+             effect="glow(0x111111,0.8);"
+             origin="bottom"
+             yoffset="60"
+             edge="center"
+             xoffset="0"
+             textalign="center"
+             noclip="true"
+             devices="flash"
+             />
+	<layer name="theme2menuTooltipStyle"
+		keep="true"
+		enabled="false"
+		capture="false"
+		url="%FIRSTXML%/graphics/textfield.swf"
+		align="center"
+		background="true"
+		backgroundcolor="0xdedede"
+		backgroundalpha="0.768627450980392"
+		border="false"
+		bordercolor="0xffffff"
+		css="color:#e6e6e6;font-family:Helvetica;font-weight:bold;font-size:16px;text-align:center;"
+		width="200"
+		height="20"
+		autoheight="true"
+			edge="bottom"
+		textshadow="1.0"
+		selectable="false"
+		zorder="0"
+		html=""
+		visible="false"
+		devices="html5"
+		/>
+
+  <!-- ******************* -->
+  <!-- Loading Information -->
+  <!-- ******************* -->
+
+  <events name="loaderinformationevent" onxmlcomplete="loaderinformationupdate();" keep="true" devices="flash" />
+
+  <action name="loaderinformationupdate" devices="flash">
+    if (progress.progress == 1,
+      delayedcall(0.5, set(layer[loaderinformationtextfield].visible, false); );
+     ,
+         set(layer[loaderinformationtextfield].visible, true);
+    );
+    mul(progresstext, get(progress.progress),100);
+    roundval(progresstext);
+    txtadd(progresstext, get(progresstext), %);
+    set(layer[loaderinformationtextfield].html, get(progresstext));
+    ifnot(progress.progress GE 1, delayedcall(0.01, loaderinformationupdate() ));
+  </action>
+
+  <layer name="loaderinformationtextfield"
+         devices="flash"
+         keep="true"
+         zorder="3"
+         url="%FIRSTXML%/graphics/textfield.swf"
+         align="center"
+         x="0"
+         y="0"
+         borderwidth="0"
+         background="false"
+         autoheight="true"
+         capture="false"
+         handcursor="false"
+         selectable="false"
+         alpha="1"
+         visible="true"
+         css="
+              text-align:center;
+              color:#ffffff;
+              font-family:Arial;
+              font-weight:bold;
+              font-size:16px;
+             "
+  />
+<!-- ************ -->
+<!-- Double click -->
+<!-- ************ -->
+  <plugin name="doubleclick" url="%FIRSTXML%/graphics/doubleclick/fieldofview_dc.swf" alturl="%FIRSTXML%/graphics/doubleclick/fieldofview_dc.js" keep="true" ondblclick="ondoubleclick();"/>
+  <action name="ondoubleclick">switchFullscreen();
+
+  </action>
+<!-- ********* -->
+<!-- Gyroscope -->
+<!-- ********* -->
+<plugin name="gyroscope"
+        url="graphics/gyro.js"
+        keep="true"
+        devices="tablet|mobile"
+        onavailable="delayedcall(1, checkGyroAvailability(););"
+        enabled="true"
+        />
+
+<action name="changeGyroscopeState">
+  ifnot (plugin[gyroscope].available === undefined,
+    if (plugin[gyroscope].available,
+      switch(plugin[gyroscope].enabled);
+      if (plugin[gyroscope].enabled, events.dispatch(ongyroscopeon);, events.dispatch(ongyroscopeoff););
+    );
+  );
+</action>
+
+<action name="checkGyroAvailability">
+	ifnot (plugin[gyroscope].available === undefined, 
+		if (plugin[gyroscope].available,
+			set(tour_gyroscopedevices, true);
+			events.dispatch(ongyroscopeavailable);
+			if (plugin[gyroscope].enabled, events.dispatch(ongyroscopeon);, events.dispatch(ongyroscopeoff););
+		,
+			set(tour_gyroscopedevices, false);
+			set(plugin[gyroscope].enabled, false);
+		);
+	,
+		set(tour_gyroscopedevices, false);
+		set(plugin[gyroscope].enabled, false);
+	);
+</action>
+  <!-- ************** -->
+  <!-- Website Viewer -->
+  <!-- ************** -->
+
+<ptplugin name="websiteViewer" engine="kolorBox">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="draggable_box" value="false" type="bool" />
+		<option name="container_auto_size" value="true" type="bool" />
+		<option name="container_width" value="100" type="int" />
+		<option name="container_width_unit" value="percent" type="string" />
+		<option name="container_height" value="100" type="int" />
+		<option name="container_height_unit" value="percent" type="string" />
+		<option name="container_color" value="ffffff" type="string" />
+		<option name="container_alpha" value="0.8" type="float" />
+		<option name="container_topleft_border_radius" value="15" type="int" />
+		<option name="container_topright_border_radius" value="15" type="int" />
+		<option name="container_bottomleft_border_radius" value="15" type="int" />
+		<option name="container_bottomright_border_radius" value="15" type="int" />
+		<option name="container_border_width" value="0" type="int" />
+		<option name="container_border_color" value="ffffff" type="string" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.500007629510948" type="float" />
+		<option name="title_displayed" value="false" type="bool" />
+		<option name="title_position" value="top" type="string" />
+		<option name="title_font" value="Verdana" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_decoration" value="normal" type="string" />
+		<option name="title_color" value="000000" type="string" />
+		<option name="caption_displayed" value="false" type="bool" />
+		<option name="iframe_scrolling" value="auto" type="string" />
+		<option name="iframe_default_width" value="1100" type="int" />
+		<option name="iframe_default_height" value="800" type="int" />
+		<option name="iframe_devices_width" value="1100" type="int" />
+		<option name="iframe_devices_height" value="800" type="int" />
+		<option name="force_ios_scrolling" value="true" type="bool" />
+		<option name="fullscreen_displayed" value="true" type="bool" />
+		<option name="fullscreen_position" value="topleft" type="string" /> 
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_position" value="topright" type="string" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorBoxCallback-websiteViewer')" type="string" />
+		<option name="zorder" value="6" type="int" />
+	</settings>
+	<internaldata>
+		
+	</internaldata>
+</ptplugin>
+
+<action name="kolorBoxJsReady-websiteViewer">
+	set(ptplugin[websiteViewer].jsready, true);
+</action>
+
+<action name="openWebsite-websiteViewer">
+	ifnot(ptplugin[websiteViewer].isOpen,
+		set(ptplugin[websiteViewer].isOpen, true);
+		set(ptplugin[websiteViewer].doNotDeleteMe, false);
+		getmessage(boxurl, %1);
+		txtadd(boxurl, ?iframe=true);
+		getmessage(boxtitle, %2);
+		pauseautorotation();
+		js(invokePluginFunction(websiteViewer, loadSingleArrayItem, get(boxurl), get(boxtitle)));
+		events.dispatch(onremovedisplayedobject);
+	);
+</action>
+
+<action name="toggleWebsite-websiteViewer">
+	js(invokePluginFunction(websiteViewer, toggleKolorBox, %1));
+</action>
+
+
+<action name="closeKolorBox-websiteViewer">
+	js(invokePluginFunction(websiteViewer, closeKolorBox));
+</action>
+
+<action name="closeKolorBoxCallback-websiteViewer">
+	resumeautorotation();
+	set(ptplugin[websiteViewer].isOpen, false);
+</action>
+
+<events name="kolorBoxEvents-websiteViewer" 
+	keep="true"
+/>
+  <action name="displayImage">
+    if (%1 == null,
+      showlog();trace("Display Image : function called without any image. Verify its parameters in Panotour.");
+    ,
+    if (layer[displayedStandardImage],
+      if(layer[displayedStandardImage].doNotDeleteMe,
+        set(layer[displayedStandardImage].currentCall, false);
+        set(layer[displayedStandardImage].visible, true);
+        set(layer[displayedStandardImage].doNotDeleteMe, false);
+        
+        if (%1 == layer[displayedStandardImage].url,resumeautorotation();
+          removelayer(displayedStandardImage);
+        ,
+          setDisplayedImageObjectParameters(%1, %2, %3, %4, %5, %6);
+        );
+      ,
+        set(layer[displayedStandardImage].currentCall, true);
+        set(layer[displayedStandardImage].doNotDeleteMe, true);
+        events.dispatch(onremovedisplayedobject);
+        delayedcall(0.2,displayImage(%1, %2, %3, %4, %5, %6, %7););
+      );
+    ,
+      addlayer(displayedStandardImage);
+      set(layer[displayedStandardImage].keep, false);
+      set(layer[displayedStandardImage].onclick, resumeautorotation();removelayer(displayedStandardImage));
+      set(layer[displayedStandardImage].zorder , 99);
+      
+      set(layer[displayedStandardImage].currentCall, true);
+      set(layer[displayedStandardImage].doNotDeleteMe, true);
+      events.dispatch(onremovedisplayedobject);
+      delayedcall(0.2,displayImage(%1, %2, %3, %4, %5, %6, %7););
+      if (%7,pauseautorotation(););
+      set(layer[displayedStandardImage].visible, false);
+    );
+    );
+  </action>
+  <action name="setDisplayedImageObjectParameters">
+    set(layer[displayedStandardImage].url    , %1);
+    set(layer[displayedStandardImage].align  , %2);
+    set(layer[displayedStandardImage].x      , %3);
+    set(layer[displayedStandardImage].y      , %4);
+    set(layer[displayedStandardImage].width  , %5);
+    set(layer[displayedStandardImage].height , %6);
+  </action> 
+  <events name="displayedImageObjectEvents" keep="true" onremovedisplayedobject="displayedImageObjectOnRemoveDisplayedObject"/>
+  <action name="displayedImageObjectOnRemoveDisplayedObject">
+    ifnot(layer[displayedStandardImage].currentCall,if(layer[displayedStandardImage].visible,resumeautorotation();
+      removelayer(displayedStandardImage);
+    ););
+  </action>
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+</krpano>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[New Project]]></data>
+
+
+
+  <data name="en_pano24_title"><![CDATA[IMG_big]]></data>
+
+
+  <data name="en_pano25_title"><![CDATA[IMG_litle]]></data>
+
+
+  <data name="en_pano26_title"><![CDATA[Little]]></data>
+
+
+  <data name="en_pano27_title"><![CDATA[Panoramа_equi]]></data>
+
+
+
+
+
+
+  <data name="en_controlBar_classicprevSceneTip"><![CDATA[Previous panorama]]></data>
+  <data name="en_controlBar_classicnextSceneTip"><![CDATA[Next panorama]]></data>
+  <data name="en_controlBar_classiczoomInTip"><![CDATA[Zoom in]]></data>
+  <data name="en_controlBar_classiczoomOutTip"><![CDATA[Zoom out]]></data>
+  <data name="en_controlBar_classicmoveLeftTip"><![CDATA[Move left]]></data>
+  <data name="en_controlBar_classicmoveRightTip"><![CDATA[Move right]]></data>
+  <data name="en_controlBar_classicmoveUpTip"><![CDATA[Move up]]></data>
+  <data name="en_controlBar_classicmoveDownTip"><![CDATA[Move down]]></data>
+  <data name="en_controlBar_classicopenFsTip"><![CDATA[Enter fullscreen]]></data>
+  <data name="en_controlBar_classiccloseFsTip"><![CDATA[Exit fullscreen]]></data>
+  <data name="en_controlBar_classicautorotateOnTip"><![CDATA[Start autorotation]]></data>
+  <data name="en_controlBar_classicautorotateOffTip"><![CDATA[Stop autorotation]]></data>
+  <data name="en_controlBar_classicdisplayHelpTip"><![CDATA[Show help screen]]></data>
+  <data name="en_controlBar_classichideHelpTip"><![CDATA[Hide help screen]]></data>
+  <data name="en_controlBar_classicdisplayControlsTip"><![CDATA[Show controls]]></data>
+  <data name="en_controlBar_classichideControlsTip"><![CDATA[Hide controls]]></data>
+  <data name="en_controlBar_classicctrlmodeDragTip"><![CDATA[Change control mode]]></data>
+  <data name="en_controlBar_classicctrlmodeMoveTip"><![CDATA[Change control mode]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>

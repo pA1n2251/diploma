@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.17">
+
+    
+  <!-- Spot Style - Default Point Spot Style 1 -->
+  <style name="IconDefaultPointSpotStyle1"
+         url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint0.png"
+         visible="false"
+
+
+         onhover="onhoverIconDefaultPointSpotStyle1"
+         onout="onoutIconDefaultPointSpotStyle1"
+         />
+  <action name="onhoverIconDefaultPointSpotStyle1">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIconDefaultPointSpotStyle1">
+    hideTooltip();
+
+
+
+  </action>
+
+  
+  <!-- Spot Style - Default Polygon Spot Style 1 -->
+  <style name="PolygonDefaultPolygonSpotStyle1"
+           visible="false"
+           borderwidth="0"
+           borderwidthhover="4"
+           bordercolor="0xffffff" borderalpha="1"
+           fillcolor="0xffffff"   fillalpha="0.4"
+           bordercolorhover="0xffffff" borderalphahover="1"
+           fillcolorhover="0xffffff"   fillalphahover="0.4"
+           capture="false"
+           onhover="onhoverPolygonDefaultPolygonSpotStyle1"
+           onout="onoutPolygonDefaultPolygonSpotStyle1"
+           alturl="%FIRSTXML%/spots/default_spot_user_defaultpolygon0.png"
+           altscale="1.0"
+           frame="0"
+           lastframe="19"
+           frameheight="64"
+           framewidth="64"
+           altonloaded="setdefaultanimatedspotframe();startspotanimation(0.1);"
+           />
+  <action name="onhoverPolygonDefaultPolygonSpotStyle1">
+    showTooltip(hotspot);
+  </action>
+  <action name="onoverPolygonDefaultPolygonSpotStyle1">pauseautorotation();
+  </action>
+  <action name="onoutPolygonDefaultPolygonSpotStyle1">
+    hideTooltip();resumeautorotation();
+  </action>
+
+    
+  <!-- Spot Style - &lt;- -->
+  <style name="Icon&lt;-"
+         url="%FIRSTXML%/spots/hotspot_direction_user_user_defaultpoint00.png"
+         visible="false"
+
+
+         rotate="1"
+         onhover="onhoverIcon&lt;-"
+         onout="onoutIcon&lt;-"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon&lt;-">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon&lt;-">
+    hideTooltip();
+
+
+
+  </action>
+
+    
+  <!-- Spot Style - &lt;- -->
+  <style name="Icon&lt;-"
+         url="%FIRSTXML%/spots/hotspot_direction_sequence_user_user_defaultpoint01.png"
+         visible="false"
+
+         frame="0"
+         lastframe="15"
+         framewidth="98"
+         frameheight="48"
+         stopspotsequence="false"
+         onloaded="setdefaultanimatedspotframe();startspotanimation(0.1);"
+
+         onhover="onhoverIcon&lt;-"
+         onout="onoutIcon&lt;-"
+         width="40"
+         height="prop"
+         />
+  <action name="onhoverIcon&lt;-">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoutIcon&lt;-">
+    hideTooltip();
+
+
+
+  </action>
+
+</krpano>
